@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI</title>
+    <title>Adivina Quién</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="logo.webp">
+    <link rel="shortcut icon" href="logo.png">
 
 </head>
 <body>
@@ -32,7 +32,17 @@
         <div class="text-options" id="textOptions">
         </div>
     </section>
-    <script src="nodes.js"></script>
-    <script src="code.js"></script>
+
+    <section class="character hide" id="sectionCharacter">
+        <div class="main-character">
+            <img id="character-image" src="" alt="Imagen del personaje">
+            <p id="character-paragraph"></p>
+            <button id="reload">Volver a jugar</button>
+        </div>
+    </section>
+
+    <script src="./node.js"></script>
+    <script src="./options.js"></script>
+    <script src="./code.js"></script>
 </body>
 </html>
