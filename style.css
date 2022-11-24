@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2CC0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.begin {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.history h1 {
+    font-size: 3.8rem;
+    color: #024059;
+}
+
+.history p {
+    max-height: 320px;
+    font-size: 2rem;
+    color: #024059;
+    overflow-y: auto;
+}
+
+.button-container {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 87%;
+    min-width: 300px;
+    height: 60px;
+    background-color: #F2E307;
+    border: 1px solid #980BBF;
+    box-shadow: 16px 8px 2px rgb(1, 118, 118);
+    font-size: 1.6rem;
+    color: #024059;
+    text-align: center;
+    cursor: pointer;
+    transition: all linear 400ms;
+}
+
+button:hover {
+    background-color: rgb(1, 118, 118);
+    color: #2BF0FB;
+    box-shadow: 0px 0px 4px 4px #fff;
+}
+
+.questions {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    border-bottom: 1px solid #980BBF;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.main-p__container {
+    width: 87%;
+    min-width: 300px;
+    height: 120px;
+    background-color: #F2E307;
+    border: 1px solid #980BBF;
+    box-shadow: 16px 8px 2px rgb(1, 118, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.main-p {
+    font-size: 2rem;
+    color: #024059;
+    text-align: center;
+    max-height: 96px;
+    max-width: 87%;
+    text-align: justify;
+}
+
+.text-options {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hide {
+    display: none;
+}
